@@ -3,6 +3,7 @@
 import { useAccount, useDisconnect, useChainId, useSwitchChain } from 'wagmi'
 import { useAppKit } from '@reown/appkit/react'
 import { NETWORK } from '@/config/constants'
+import { Logo } from '@/components/logo'
 
 const BASE_SEPOLIA_CHAIN_ID = NETWORK.chainId
 
@@ -55,15 +56,7 @@ export function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo/Brand */}
           <div className="flex-shrink-0">
-            <h1 className="text-xl font-bold text-red-600 dark:text-red-500">
-              <a
-                href="/"
-                className="focus:outline-none focus:ring-2 focus:ring-red-600 dark:focus:ring-red-500 focus:ring-offset-2 rounded"
-                aria-label="VaultsIQ home"
-              >
-                VaultsIQ
-              </a>
-            </h1>
+            <Logo variant="full" size="md" />
           </div>
 
           {/* Navigation Links */}
