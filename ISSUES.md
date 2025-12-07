@@ -4,15 +4,10 @@ This file contains all GitHub issues for the VaultsIQ frontend. Each issue is re
 
 ## ✅ Completed Issues
 
-_(No completed issues yet - ready for contributions!)_
-
----
-
-## ❌ Pending Issues
-
 ### Issue #1: Wallet Integration — Reown AppKit + Wagmi
 
-**Status:** ❌ PENDING  
+**Status:** ✅ COMPLETED  
+**Completed Date:** 2024
 
 **Labels:** `frontend`, `wallet`, `infrastructure`  
 
@@ -24,21 +19,28 @@ Add wallet connection using Reown AppKit (WalletConnect) + Wagmi. Provide a `Nav
 
 **Acceptance Criteria:**
 
-- [ ] Users can connect with MetaMask and WalletConnect
-- [ ] Address displays in navbar
-- [ ] Network information displays (Base Sepolia)
-- [ ] Signer is available to send transactions
-- [ ] Disconnect functionality works
-- [ ] Network switching works (with proper prompts)
+- [x] Users can connect with MetaMask and WalletConnect
+- [x] Address displays in navbar
+- [x] Network information displays (Base Sepolia)
+- [x] Signer is available to send transactions
+- [x] Disconnect functionality works
+- [x] Network switching works (with proper prompts)
 
 **Implementation Notes:**
 
-- Navbar component should be created at `components/layout/navbar.tsx`
-- AppKit integration configured in `config/adapter.ts`
-- Wagmi configuration in `config/wagmi.ts`
-- Use Base Sepolia chain ID: 84532
+- Navbar component created at `components/layout/navbar.tsx` ✅
+- AppKit integration configured in `config/wagmi.ts` ✅
+- Adapter utilities created in `config/adapter.ts` ✅
+- Wagmi configuration in `config/wagmi.ts` ✅
+- Base Sepolia chain ID: 84532 ✅
+- Environment configuration with `.env.example` ✅
+- Constants file created at `config/constants.ts` ✅
 
 ---
+
+---
+
+## ❌ Pending Issues
 
 ### Issue #2: Wagmi Configuration & Provider Setup
 
