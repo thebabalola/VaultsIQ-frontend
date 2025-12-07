@@ -181,45 +181,6 @@ Create a professional logo and brand identity for VaultsIQ. The logo should repr
 
 ---
 
-### Issue #5: UI Rebrand & Landing Page Redesign
-
-**Status:** ❌ PENDING  
-
-**Labels:** `frontend`, `design`, `ui/ux`  
-
-**Priority:** HIGH
-
-**Description:**
-
-Complete UI rebrand with a modern, professional design. Create a new landing page with: header, hero section, features section, main content area, and footer. Implement a cohesive color scheme using shades of red with a mix of black, grey, and white for a sophisticated, modern look.
-
-**Acceptance Criteria:**
-
-- [ ] Remove existing landing page content
-- [ ] Design and implement new layout structure:
-  - [ ] Header/Navbar (with logo, navigation, wallet connect)
-  - [ ] Hero section (compelling introduction to VaultsIQ)
-  - [ ] Features section (highlighting multi-vault capabilities)
-  - [ ] Main content area (explaining ERC-4626, yield generation)
-  - [ ] Footer (links, social, copyright)
-- [ ] Implement color scheme:
-  - [ ] Primary: Shades of red for primary actions and branding
-  - [ ] Neutral: Black, grey, and white for backgrounds, text, and UI elements
-  - [ ] Accent: Red variations for highlights and interactive elements
-- [ ] Update Tailwind config with new color palette
-- [ ] Ensure design is cohesive across all pages
-- [ ] Maintain responsive design (mobile, tablet, desktop)
-- [ ] Ensure accessibility (contrast ratios, focus states)
-
-**Technical Notes:**
-
-- Update `tailwind.config.js` with custom color palette
-- Consider using CSS variables for theme colors
-- Hero section should highlight "multiple vaults" capability
-- Feature section should emphasize ERC-4626 compliance and automation
-
----
-
 ### Issue #6: Multi-Vault Dashboard Interface
 
 **Status:** ❌ PENDING  
